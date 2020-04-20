@@ -1,0 +1,89 @@
+body {
+	color: white;
+	background-color: black;
+	font-family: 'Rokkitt', serif;
+	margin-bottom: 800px;
+	
+}
+
+#user_input {
+	height: 50px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+
+h1 {
+	margin-bottom: 0;
+}
+
+#description {
+	margin-top: 5px;
+}
+
+#jokes {
+	margin-bottom: 20px;
+}
+
+
+#content  {
+	width: 60%;
+	margin: auto;
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	height: 50vh;
+	
+}
+
+#show {
+	background: white;
+	color: black;
+}
+
+#show:hover {
+	color: white;
+	background: black;
+}
+
+button {
+	width: 150px;
+	height: 35px;
+	border: 2px solid white;
+	background: none;
+	letter-spacing: 1px;
+	color: white;
+	margin-bottom: 10px;
+	outline: none;
+
+}
+
+button:hover {
+	color: black;
+	background: white;
+}
+
+#display {
+	margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+	#content {
+		width: 90%;
+		margin: auto;
+		position: relative;
+		top: 5%; bottom: 0; left: 0; right: 0;
+		height: 0vh;
+}
+	
+}
+
+@media (max-width: 500px) {
+	#content {
+		width: 98%;
+		margin: auto;
+		position: relative;
+		top: 1%; bottom: 0; left: 0; right: 0;
+		height: 0vh;
+}
+	
+}
